@@ -25,7 +25,7 @@ function tripler(array) {
         // return result x
   
 }
-console.log(tripler([1,2,3])
+console.log(tripler([1,2,3]))
 // understand the problem
 // what the problem is asking you to return
 // what do I need to solve the problem
