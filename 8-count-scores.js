@@ -38,9 +38,10 @@ function countScores(people) {
     //loop through people
     for (person of people) {
         //if name already in new object, add to score, else create
-        if (Object.keys(totals).indexOf(person.name === -1)) {
+        if (Object.keys(totals).indexOf(person.name) === -1) {
             //add key for name to new object
             //add score value as key:value
+            totals[person.name] = person.score;
         } else {
             totals[person.name] = totals[person.name] + person.score;
         }
