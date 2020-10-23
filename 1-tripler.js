@@ -10,7 +10,7 @@ tripler([4, 1, 7]); // => [ 12, 3, 21 ]
 
 function tripler(array) {
     // Confirm in the function
-    console.log('Inside the tripler function');
+    console.log('Inside the tripler() function:');
     // Take in an array, and return a new array
     const result = [];
     // Iterate through array passed in
