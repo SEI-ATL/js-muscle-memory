@@ -18,4 +18,4 @@ function tripler(array) {
     return result;
 }
 
-console.log(tripler(1,2,3))
+console.log(tripler([1,2,3]))
