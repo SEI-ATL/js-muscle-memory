@@ -16,6 +16,7 @@ function tripler(array) {
     // push new element into result array
     // return rresult x
     console.log ('Inside of this function')
+    
     for (let i = 0; i < array.length; i++) {
         let num = array[i];
         let multi = num *3;
