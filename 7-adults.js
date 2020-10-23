@@ -16,5 +16,23 @@ adults(ppl); // => [ 'Khalid Robinson', 'Post Malone' ]
 ***********************************************************************/
 
 function adults(people) {
-  
+    //new array
+    let adults = [];
+    //loop through poeple
+    for (person of people) {
+        //check age key value for over 18
+        if (person.age >= 18) {
+            //append to new array then return
+            adults.push(person.name);
+        }
+    }
+    return adults;
 }
+
+const ppl = [
+    { name: 'Khalid Robinson', age: 22 },
+    { name: 'Ariel Winter', age: 20 },
+    { name: 'Post Malone', age: 25 },
+    { name: 'Willow Smith', age: 17 }
+];
+console.log(adults(ppl)); // => [ 'Khalid Robinson', 'Ariel Winter', 'Post Malone' ]
