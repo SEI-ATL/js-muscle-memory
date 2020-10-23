@@ -24,11 +24,11 @@ function addExercisesToContainer(array) {
         // Set each element to a variable inside the array to get its value
         let exercise = array[i].activity;
         // Create new element
-        let newElement = document.createElement('p');
+        let exerciseElement = document.createElement('p');
         // Add value text to element (textContent)
-        newElement.textContent = exercise;
+        exerciseElement.textContent = exercise;
         // Append nw element to container
-        container.appendChild(newElement);
+        container.appendChild(exerciseElement);
     }
 }
 
