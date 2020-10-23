@@ -10,6 +10,21 @@ doesKeyExist(obj1, 'company'); // => true
 doesKeyExist(obj1, 'name'); // => false
 ***********************************************************************/
 
-function doesKeyExist(obj, key) {
+// function doesKeyExist(obj, key) {
+
+// }
+
+
+
+const obj1 = {company: 'General Assembly', course: 'Software Engineering Immersive'}
+
+
+// check if key in object, if not it returns false, if its in it returns true
+doesKeyExist = (obj, key) => {
+    return key in obj;
+
 
 }
+
+console.log (doesKeyExist(obj1, 'name'));
+console.log (doesKeyExist(obj1, 'company'));
