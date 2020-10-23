@@ -11,3 +11,9 @@ tripler([4, 1, 7]); // => [ 12, 3, 21 ]
 function tripler(array) {
   
 }
+
+
+
+
+
+// !!!I didnt join back from breakout room at the correct time and wasnt able to follow along with this one i am sorry!!!
