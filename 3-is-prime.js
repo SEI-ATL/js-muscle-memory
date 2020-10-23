@@ -12,6 +12,16 @@ isPrime(2017); // => true
 ***************************************************************************/
 
 function isPrime(number) {
+    // start at 2 and check to see if number is divisible by 2
+    // if divisible by any number other than 1, return false, otherwise return true
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            return false;
+        }
+    }
+    return true;
 
 }
-
+console.log(isPrime(137));
+console.log(isPrime(2012563));
+console.log(isPrime(1247984937));
