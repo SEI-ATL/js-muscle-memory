@@ -33,3 +33,35 @@ function addExercisesToContainer(array) {
 }
 
 addExercisesToContainer(exercises);
+
+function addBodyTypeToContainer(array) {
+    // Iterate over array
+    for (let i = 0; i < array.length; i++) {
+        // Set each element to a variable inside the array to get its value
+        let type = array[i].muscles;
+        // Create new element
+        let typeElement = document.createElement('p');
+        // Add value text to element (textContent)
+        typeElement.textContent = type;
+        // Append nw element to container
+        container.appendChild(typeElement);
+    }
+}
+
+addBodyTypeToContainer(exercises);
+
+function addBodyPartToContainer(array) {
+    // Iterate over array
+    for (let i = 0; i < array.length; i++) {
+        // Set each element to a variable inside the array to get its value
+        let part = array[i].body;
+        // Create new element
+        let partElement = document.createElement('p');
+        // Add value text to element (textContent)
+        partElement.textContent = part;
+        // Append nw element to container
+        container.appendChild(partElement);
+    }
+}
+
+addBodyPartToContainer(exercises);
