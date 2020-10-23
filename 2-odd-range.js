@@ -31,5 +31,5 @@ function oddRange(end) {
 
 console.log(oddRange(13)); // => [ 1, 3, 5, 7, 9, 11, 13 ]
 console.log(oddRange(6)); // => [ 1, 3, 5 ]
-console.log(oddRange(-16));
-console.log(oddRange('apple'));
+console.log(oddRange(-16)); // => []
+console.log(oddRange('apple')); // => []

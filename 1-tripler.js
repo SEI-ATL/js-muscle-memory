@@ -25,5 +25,5 @@ function tripler(array) {
     return result
 }
 
-console.log(tripler([1,2,3]));
-console.log(tripler([4, 1, 7]));
+console.log(tripler([1, 2, 3])); // => [3, 6, 9]
+console.log(tripler([4, 1, 7])); // => [12, 3, 21]
