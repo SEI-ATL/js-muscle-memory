@@ -27,7 +27,7 @@ function addExercisesToContainer(array) {
         let exerciseElement = document.createElement('p');
         // Add value text to element (textContent)
         exerciseElement.textContent = exercise;
-        // Append nw element to container
+        // Append new element to container
         container.appendChild(exerciseElement);
     }
 }
@@ -43,7 +43,7 @@ function addBodyTypeToContainer(array) {
         let typeElement = document.createElement('p');
         // Add value text to element (textContent)
         typeElement.textContent = type;
-        // Append nw element to container
+        // Append new element to container
         container.appendChild(typeElement);
     }
 }
@@ -59,7 +59,7 @@ function addBodyPartToContainer(array) {
         let partElement = document.createElement('p');
         // Add value text to element (textContent)
         partElement.textContent = part;
-        // Append nw element to container
+        // Append new element to container
         container.appendChild(partElement);
     }
 }
