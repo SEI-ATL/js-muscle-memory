@@ -33,5 +33,35 @@ countScores(peeps); //=> { Pete: 4, Mike: 4, Dexter: 6 }
 
 
 function countScores(people) {
-
+  let scores = {};
+  for (let i = 0; i < people.length; i++) {
+    let person = people[i];
+    if (person.name in scores) {
+      scores[person.name] = scores[person.name] += person.score;
+    } else {
+      scores[person.name] = person.score;
+    }
+  }
+  return scores;
 }
+
+const ppl = [ 
+  {name: "Pete", score: 10},
+  {name: "Mike", score : 10},
+  {name: "Pete", score: -8},
+  {name: "Dexter", score: 12}
+];
+
+console.log(countScores(ppl));
+
+const peeps = [
+  {name: "Pete", score: 2},
+  {name: "Dexter", score: 2},
+  {name: "Mike", score: 2},
+  {name: "Dexter", score: 2},
+  {name: "Mike", score: 2},
+  {name: "Pete", score: 2},
+  {name: "Dexter", score: 2}
+];
+
+console.log(countScores(peeps));
