@@ -12,6 +12,13 @@ valuePair(object1, object2, 'location'); // => [ 'Remote', 'San Francisco' ]
 valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
 ***********************************************************************/
 
-function valuePair(obj1, obj2, key) {
+// have to return an array!
 
+
+function valuePair(obj1, obj2, key) {
+    // this will look for a key that is literally "key" in the object. That is not what we want
+    // return [ obj1.key ]
+
+    // this will evaluate the key argument and find out what string it represents, then it will look for that string inside obj1
+    return [ obj1[key], obj2[key] ];
 }
