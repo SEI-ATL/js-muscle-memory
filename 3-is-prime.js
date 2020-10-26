@@ -21,7 +21,7 @@ isPrime(2017); // => true
 // loop through all numbers up until itself to see if there are any positive divisors
 // if positive divisors exist and dividing = 0 , return false
 // else the only postiive divisors are 1 and itself, return true
-isPrime = (number) => {
+const isPrime = (number) => {
     if (number===1){
         return false;
     } else if (number===2) {

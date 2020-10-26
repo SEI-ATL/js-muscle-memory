@@ -19,15 +19,15 @@ cat2; // => { name: 'Whiskers', color: 'rainbow', toys: [ 'poptarts' ] }
 // initialize empty object
 // create key/value pairs based on passed arguments for each
 //return
-catBuilder = (name, color, toys) => {
+const catBuilder = (name, color, toys) => {
     let cat = {};
-    cat['name'] = name;
-    cat['color'] = color;
-    cat['toys'] = toys;
-
+    cat.name = name;
+    cat.color = color;
+    cat.toys = toys;
+    // cat['name'] = name;
+    // cat['color'] = color;
+    // cat['toys'] = toys;
     return cat;
-
-
 }
 
 console.log(catBuilder('Garfield', 'golden', ['scratching-post', 'yarn']));

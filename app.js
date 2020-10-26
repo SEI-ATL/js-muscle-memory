@@ -44,3 +44,12 @@ addLanetoContainer = (array) => {
 }
 }
 }
+
+
+//notes
+
+// function                          const function(){....}
+// function declaration>>>>          functionname();
+// function expression >>>          const functionname = function(name){...}
+// fat arrow>>>                     const functionaname = () => {...}
+

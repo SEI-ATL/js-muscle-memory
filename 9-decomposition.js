@@ -22,7 +22,7 @@ isPrime(303212); // => false
 
 // }
 
-isPrime = (number) => {
+const isPrime = (number) => {
 
     if (number===1){
         return false;
@@ -51,7 +51,7 @@ firstNPrimes(4); // => [2, 3, 5, 7]
 ***********************************************************************/
 
 
-function firstNPrimes(n) {
+const function firstNPrimes(n) {
     let primes = [];
     for (let i = 2; primes.length < n ; i++){
         if(isPrime(i)){
@@ -73,7 +73,7 @@ sumOfNPrimes(1); // => 2
 sumOfNPrimes(4); // => 17
 ***********************************************************************/
 
-function sumOfNPrimes(n) {
+const function sumOfNPrimes(n) {
 
     let primeArr = firstNPrimes(n);
     let primeSum = 0;

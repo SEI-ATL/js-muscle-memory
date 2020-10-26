@@ -20,7 +20,7 @@ const obj1 = {company: 'General Assembly', course: 'Software Engineering Immersi
 
 
 // check if key in object, if not it returns false, if its in it returns true
-doesKeyExist = (obj, key) => {
+const doesKeyExist = (obj, key) => {
     return key in obj;
 
 

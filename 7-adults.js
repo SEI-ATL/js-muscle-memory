@@ -27,7 +27,7 @@ const ppl = [
   {name: 'Willow Smith', age: 17}
 ];
 
-adults = (people) =>{
+const adults = (people) =>{
   let overEighteen = [];
 
   for (let i=0; i<people.length; i++){

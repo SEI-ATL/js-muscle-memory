@@ -19,7 +19,7 @@ oddRange(6); // => [ 1, 3, 5 ]
 // end at end
 // step = 2
 // push i into new array
-oddRange = (end) => {
+const oddRange = (end) => {
     let arr = [];
     for (let i=1; i<=end; i+=2){
         arr.push(i);

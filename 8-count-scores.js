@@ -53,7 +53,7 @@ const peeps = [
 // loop through each object in array
 //if name is already a key in the new object, add the score to the existing key-value pair
 //if not, create a new entry with that score.
-countScores = (people) => {
+const countScores = (people) => {
   let finalScore = {};
   for (i=0; i< people.length; i++){
     if (people[i]['name'] in finalScore){

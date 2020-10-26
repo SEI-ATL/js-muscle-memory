@@ -15,7 +15,7 @@ tripler([4, 1, 7]); // => [ 12, 3, 21 ]
 // create tripler function
 // create function that triples a given input number x
 // use map with mulByThree function to multiple each ele in array by 3
-tripler = (array) => {
+const tripler = (array) => {
 
     // mulByThree = (x) =>{
     //     return x*3;
