@@ -9,5 +9,25 @@ oddRange(6); // => [ 1, 3, 5 ]
 ******************************************************************************/
 
 function oddRange(end) {
-
+const result = [] ;
+// return an array
+// edge cases: if given a number, I do nothing with that number.
+// set up a for loop and start the loop at 1 
+// iterate to check if each number has a remainder of 0
+// we can also iterate by skipping over numbers i.e. oddEven
+if (end < 0) {
+    return result;
+} else {
+    for (let i = 1; i <= end.length; i++) {
+        if (i % 2 === 0) {
+            continue;
+        } else {
+            result.push[1];
+        })
+    }
 }
+}
+return result; 
+}
+console.log(oddRange(13));
+console.log(oddRange(6)); 
