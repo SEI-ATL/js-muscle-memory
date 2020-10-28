@@ -7,7 +7,7 @@ the value is their total score.
 
 Example 1
 
-const ppl = [ 
+const ppl = [
     {name: "Pete", score: 10},
     {name: "Mike", score : 10},
     {name: "Pete", score: -8},
@@ -32,6 +32,41 @@ countScores(peeps); //=> { Pete: 4, Mike: 4, Dexter: 6 }
 ***********************************************************************/
 
 
-function countScores(people) {
+// function countScores(people) {
+
+// }
+
+const peeps = [
+  {name: "Pete", score: 2},
+  {name: "Dexter", score: 2},
+  {name: "Mike", score: 2},
+  {name: "Dexter", score: 2},
+  {name: "Mike", score: 2},
+  {name: "Pete", score: 2},
+  {name: "Dexter", score: 2}
+];
+
+
+
+//initialize new object
+
+// loop through each object in array
+//if name is already a key in the new object, add the score to the existing key-value pair
+//if not, create a new entry with that score.
+const countScores = (people) => {
+  let finalScore = {};
+  for (i=0; i< people.length; i++){
+    if (people[i]['name'] in finalScore){
+      finalScore[people[i]['name']]  += people[i]['score'];
+    }
+    else {
+      finalScore[people[i]['name']]  = people[i]['score'];
+    }
+
+  }
+
+  return finalScore;
 
 }
+
+console.log(countScores(peeps));
