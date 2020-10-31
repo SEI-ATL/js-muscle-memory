@@ -32,6 +32,196 @@ countScores(peeps); //=> { Pete: 4, Mike: 4, Dexter: 6 }
 ***********************************************************************/
 
 
-function countScores(people) {
+// const ppl = [ 
+//   {name: "Pete", score: 10},
+//   {name: "Mike", score : 10},
+//   {name: "Pete", score: -8},
+//   {name: "Dexter", score: 12}
+// ];
+// function countScores(people) {
+//     let finalScore = {};
+//     for (i = 0; i < people.length; i++) {
+//       if (people[i]['name'] in finalScore) {
+//         finalScore[people[i]['name']] += people[i]['score'];
+//       } else {
+//         finalScore[people[i]['name']] = people[i]['score'];
+//       }
+//     }
+//   return finalScore;
+// }
+// console.log(countScores(ppl));
+    
 
+const peeps = [
+  {name: "Pete", score: 2},
+  {name: "Dexter", score: 2},
+  {name: "Mike", score: 2},
+  {name: "Dexter", score: 2},
+  {name: "Mike", score: 2},
+  {name: "Pete", score: 2},
+  {name: "Dexter", score: 2}
+];
+
+// countScores = (people) => {
+//   let newObject = {};
+//   for (i= 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObject) {
+//       newObject[people[i]['name']] += people[i]['score'];
+//     } else {
+//         newObject[people[i]['name']] = people[i]['score']
+//     }
+//   }
+  
+//   return newObject;
+// };
+
+
+// console.log(countScores(peeps));
+
+//1
+// countScores = (people) => {
+//   let newObject = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObject) {
+//       newObject[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObject[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObject
+// };
+// console.log(countScores(peeps));
+//2
+// countScores = (people) => {
+//   let newObject = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObject) {
+//       newObject[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObject[people[i]['name']] = people[i]['score']
+//     }
+//   }
+//   return newObject;
+// };
+// console.log(countScores(peeps));
+//3
+// countScores = (people) => {
+//   let newObj = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObj) {
+//       newObj[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObj[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObj;
+// }
+// console.log(countScores(peeps));
+//4
+// countScores = (people) => {
+//   let newObj = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObj) {
+//       newObj[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObj[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObj;
+// }
+// console.log(countScores(peeps));
+//4
+// countScores = (people) => {
+//   let newObj = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObj) {
+//       newObj[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObj[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObj;
+// }
+// console.log(countScores(peeps));
+//5
+// countScores = (people) => {
+//   let newObj = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObj) {
+//       newObj[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObj[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObj;
+// }
+// console.log(countScores(peeps));
+//6
+// countScores = (people) => {
+//   let newObj = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObj) {
+//       newObj[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObj[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObj;
+// }
+// console.log(countScores(peeps));
+//7
+// countScores = (people) => {
+//   let newObj = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObj) {
+//       newObj[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObj[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObj;
+// }
+// console.log(countScores(peeps));
+//8
+// countScores = (people) => {
+//   let newObj = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObj) {
+//       newObj[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObj[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObj;
+// }
+// console.log(countScores(peeps));
+//9
+// countScores = (people) => {
+//   let newObj = {};
+//   for (i = 0; i < people.length; i++) {
+//     if (people[i]['name'] in newObj) {
+//       newObj[people[i]['name']] += people[i]['score'];
+//     } else {
+//       newObj[people[i]['name']] = people[i]['score'];
+//     }
+//   }
+//   return newObj;
+// }
+// console.log(countScores(peeps));
+//10
+countScores = (people) => {
+  let newObj = {};
+  for (i = 0; i < people.length; i++) {
+    if (people[i]['name'] in newObj) {
+      newObj[people[i]['name']] += people[i]['score'];
+    } else {
+      newObj[people[i]['name']] = people[i]['score'];
+    }
+  }
+  return newObj;
 }
+console.log(countScores(peeps));
+
+
+
+

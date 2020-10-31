@@ -11,22 +11,22 @@ isPrime(9); // => false
 isPrime(2017); // => true
 ***************************************************************************/
 
-function isPrime(number) {
-// start at 2 and check to see if the number is divisible 
-// if divisible by any number other than 1, then return false
-//otherwise we wouold return true
+// function isPrime(number) {
+// // start at 2 and check to see if the number is divisible 
+// // if divisible by any number other than 1, then return false
+// //otherwise we wouold return true
 
-    for (let i = 2; i < number; i++) {
-        if (number % i === 0) {
-            return false;
-        }
-    }
-    return true;
-}
+//     for (let i = 2; i < number; i++) {
+//         if (number % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
-console.log(isPrime(2));
-console.log(isPrime(10));
-console.log(isPrime(11));
-console.log(isPrime(9));
-console.log(isPrime(2017));
+// console.log(isPrime(2));
+// console.log(isPrime(10));
+// console.log(isPrime(11));
+// console.log(isPrime(9));
+// console.log(isPrime(2017));
 

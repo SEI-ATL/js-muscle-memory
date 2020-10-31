@@ -12,6 +12,8 @@ valuePair(object1, object2, 'location'); // => [ 'Remote', 'San Francisco' ]
 valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
 ***********************************************************************/
 
-function valuePair(obj1, obj2, key) {
+//have to return an array
 
-}
+// function valuePair(obj1, obj2, key) {
+//     return [obj1[key], obj2[key]];
+// }

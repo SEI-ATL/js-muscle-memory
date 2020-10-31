@@ -10,6 +10,27 @@ doesKeyExist(obj1, 'company'); // => true
 doesKeyExist(obj1, 'name'); // => false
 ***********************************************************************/
 
-function doesKeyExist(obj, key) {
-
-}
+// function doesKeyExist(obj, key) {
+//     if (obj[key]) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// ;}
+// //same as above using !!
+// function doesKeyExist(obj, key) {
+//     return !!obj[key]
+// }
+// //another way to solve
+// function doesKeyExist(obj, key) {
+//    if (obj[key] === undefined) {
+//     return false
+//    } else {
+//     return true
+//    }
+// }
+// //another way to solve
+// function doesKeyExist(obj, key) {
+//     const allKeys = Object.keys(obj)
+//     return allKeys.includes(key)
+// }
