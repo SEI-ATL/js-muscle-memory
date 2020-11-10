@@ -7,7 +7,8 @@ Examples:
 tripler([1,2,3]); // => [ 3, 6, 9 ]
 tripler([4, 1, 7]); // => [ 12, 3, 21 ]
 *******************************************************************************/
-
-function tripler(array) {
-  
+function tripler(array)
+    function tripler(4, 6, 8); {
+      return x * 3;
+    }
 }

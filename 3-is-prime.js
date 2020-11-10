@@ -12,6 +12,9 @@ isPrime(2017); // => true
 ***************************************************************************/
 
 function isPrime(number) {
-
+    if (isPrime) {
+        return => true
+    } else {
+        return => false
+    }
 }
-
